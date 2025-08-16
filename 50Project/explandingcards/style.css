@@ -20,18 +20,18 @@ body{
 }
 
 .pannel{
-    background-size: auto 100%;
+    
+    background-size: 100% 100%;
     background-position: center;
     background-repeat:  no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     flex: 0.1;
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
-
 }
 
 .pannel h1{
@@ -39,7 +39,7 @@ body{
     position: absolute;
     bottom: 20px;
     left: 20px;
-    margin: 0;
+
     opacity: 0;
 
 }
@@ -49,7 +49,7 @@ body{
 
 }
 
-.pannel.active h3{
+.pannel.active h1{
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
